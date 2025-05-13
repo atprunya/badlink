@@ -1,0 +1,49 @@
+// css/style.css
+body {
+  font-family: "MS Gothic", "Osaka", sans-serif;
+  background-color: #f5f5f5;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 760px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+.archive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.archive-table th,
+.archive-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.archive-table img {
+  display: block;
+  border: 1px solid #999;
+}  
+
