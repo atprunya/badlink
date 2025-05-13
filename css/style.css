@@ -1,37 +1,50 @@
 // css/style.css
 body {
-  font-family: 'Courier New', monospace;
-  background-color: #001F4D; /* 深めの青 */
-  color: #ffffff;
   margin: 0;
   padding: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #000c1f; /* 濃紺 */
+  color: #ffffff;
+  background-image: radial-gradient(#001a3d 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+header, footer {
+  background-color: #001a3d;
+  padding: 16px 0;
+  text-align: center;
+  border-bottom: 2px solid #00ccff;
+  border-top: 2px solid #00ccff;
+  box-shadow: 0 2px 8px rgba(0, 255, 255, 0.1);
+}
+
+header h1, footer p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .container {
-  width: 760px;
+  max-width: 860px;
   margin: 40px auto;
-  background-color: #002B6B;
-  border: 2px solid #4466aa;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  background-color: #001b33;
+  border: 2px solid #004477;
+  padding: 24px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.1);
 }
 
-h1 {
-  font-size: 28px;
-  color: #ffffff;
-  border-bottom: 3px solid #00aaff;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 0 #003366;
+h1, h2 {
+  color: #00ccff;
+  text-shadow: 0 0 3px #0077aa;
+  border-bottom: 2px solid #004477;
+  padding-bottom: 6px;
 }
 
 h2 {
+  margin-top: 32px;
   font-size: 20px;
-  color: #ffffff;
-  border-left: 4px solid #00aaff;
-  padding-left: 10px;
-  margin-top: 30px;
-  text-shadow: 1px 1px 0 #002244;
 }
 
 a {
@@ -39,25 +52,22 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #99ccff;
-}
-
 a:hover {
   color: #ffffff;
-  background-color: #003366;
+  background-color: #004477;
   padding: 2px 4px;
+  border-radius: 2px;
 }
 
 ul {
-  list-style-type: square;
+  list-style: square;
   padding-left: 20px;
 }
 
 .archive-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 24px;
   background-color: #002244;
   color: #ffffff;
 }
@@ -65,14 +75,12 @@ ul {
 .archive-table th,
 .archive-table td {
   border: 1px solid #004488;
-  padding: 10px;
+  padding: 12px;
   text-align: left;
-  vertical-align: top;
 }
 
 .archive-table th {
   background-color: #003366;
-  color: #ffffff;
 }
 
 .archive-table img {
@@ -92,6 +100,8 @@ code {
 
 p, li {
   line-height: 1.6;
-  font-size: 14px;
+  font-size: 15px;
 }
+
+/* 過去の白背景削除済 */
 
