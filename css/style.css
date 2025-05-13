@@ -1,0 +1,92 @@
+// css/style.css
+body {
+  font-family: "MS PGothic", "Osaka", sans-serif;
+  background-color: #e0e0e0;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 760px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border: 2px solid #666;
+  padding: 20px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 24px;
+  border-bottom: 3px double #333;
+  margin-bottom: 20px;
+  color: #003366;
+  background-color: #ddeeff;
+  padding: 5px 10px;
+}
+
+h2 {
+  font-size: 18px;
+  border-left: 6px solid #6699cc;
+  padding-left: 10px;
+  margin-top: 30px;
+  color: #003366;
+}
+
+a {
+  color: #0000cc;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #663399;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.archive-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fdfdfd;
+}
+
+.archive-table th,
+.archive-table td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.archive-table th {
+  background-color: #cce0ff;
+  color: #000;
+}
+
+.archive-table img {
+  display: block;
+  border: 2px solid #666;
+  background-color: #fff;
+  padding: 2px;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border: 1px solid #ccc;
+}
+
+p, li {
+  line-height: 1.6;
+  font-size: 14px;
+}
+
