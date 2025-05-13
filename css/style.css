@@ -1,8 +1,8 @@
 // css/style.css
 body {
-  font-family: "MS PGothic", "Osaka", sans-serif;
-  background-color: #e0e0e0;
-  color: #000;
+  font-family: 'Courier New', monospace;
+  background-color: #001F4D; /* 深めの青 */
+  color: #ffffff;
   margin: 0;
   padding: 0;
 }
@@ -10,40 +10,43 @@ body {
 .container {
   width: 760px;
   margin: 40px auto;
-  background-color: #ffffff;
-  border: 2px solid #666;
+  background-color: #002B6B;
+  border: 2px solid #4466aa;
   padding: 20px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
 h1 {
-  font-size: 24px;
-  border-bottom: 3px double #333;
+  font-size: 28px;
+  color: #ffffff;
+  border-bottom: 3px solid #00aaff;
   margin-bottom: 20px;
-  color: #003366;
-  background-color: #ddeeff;
-  padding: 5px 10px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 0 #003366;
 }
 
 h2 {
-  font-size: 18px;
-  border-left: 6px solid #6699cc;
+  font-size: 20px;
+  color: #ffffff;
+  border-left: 4px solid #00aaff;
   padding-left: 10px;
   margin-top: 30px;
-  color: #003366;
+  text-shadow: 1px 1px 0 #002244;
 }
 
 a {
-  color: #0000cc;
-  text-decoration: underline;
+  color: #00ccff;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #663399;
+  color: #99ccff;
 }
 
 a:hover {
-  color: #ff0000;
+  color: #ffffff;
+  background-color: #003366;
+  padding: 2px 4px;
 }
 
 ul {
@@ -55,34 +58,36 @@ ul {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-  background-color: #fdfdfd;
+  background-color: #002244;
+  color: #ffffff;
 }
 
 .archive-table th,
 .archive-table td {
-  border: 1px solid #999;
+  border: 1px solid #004488;
   padding: 10px;
   text-align: left;
   vertical-align: top;
 }
 
 .archive-table th {
-  background-color: #cce0ff;
-  color: #000;
+  background-color: #003366;
+  color: #ffffff;
 }
 
 .archive-table img {
   display: block;
-  border: 2px solid #666;
-  background-color: #fff;
+  border: 2px solid #005599;
+  background-color: #000;
   padding: 2px;
 }
 
 code {
-  font-family: "Courier New", monospace;
-  background-color: #f5f5f5;
+  font-family: 'Courier New', monospace;
+  background-color: #000000;
+  color: #00ffff;
   padding: 2px 4px;
-  border: 1px solid #ccc;
+  border: 1px solid #004466;
 }
 
 p, li {
