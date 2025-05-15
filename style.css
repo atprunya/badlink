@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: #0b1a2c;
+  color: #f2f2f2;
+  font-family: 'Courier New', monospace;
+}
+.header, .footer {
+  padding: 1em;
+  background-color: #081420;
+}
+.logo {
+  margin: 0;
+  font-size: 1.5em;
+}
+.nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  margin-right: 1em;
+  font-size: 0.9em;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.main {
+  padding: 2em;
+}
+.search-box {
+  margin-bottom: 2em;
+}
+.archive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.archive-table th, .archive-table td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #244;
+  font-size: 0.9em;
+}
+.archive-table th {
+  text-align: left;
+  color: #aaa;
+}
+.archive-table td a {
+  color: #80caff;
+  text-decoration: none;
+}
+.archive-table td a:hover {
+  text-decoration: underline;
+}
+.footer {
+  font-size: 0.8em;
+  color: #aaa;
+  text-align: center;
+}
+
