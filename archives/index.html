@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archives - BadLink</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <style>
+    body {
+      background-color: #0b1a2c;
+      color: #f2f2f2;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+    }
+    header, footer {
+      padding: 1rem 2rem;
+      background-color: #091523;
+    }
+    .logo {
+      margin: 0;
+      font-size: 1.4rem;
+    }
+    nav a {
+      margin-right: 1.5rem;
+      color: #f2f2f2;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      border-bottom: 1px solid #444;
+      margin-bottom: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid #333;
+      font-size: 0.95rem;
+    }
+    th {
+      background-color: #112233;
+      color: #cceeff;
+      text-align: left;
+    }
+    tr:hover {
+      background-color: #142b45;
+    }
+    .status-retrieved { color: #a0ffb8; }
+    .status-corrupted { color: #ff9999; }
+    .status-partial   { color: #ffcc66; }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="logo">BadLink</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/archives/">Archives</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Archived Sites</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Site ID</th>
+          <th>Last Update</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="/archives/kazunari_2003/">kazunari_2003</a></td>
+          <td>2006-03-14</td>
+          <td class="status-retrieved">retrieved</td>
+        </tr>
+        <tr>
+          <td><a href="/archives/nagase_photo/">nagase_photo</a></td>
+          <td>2004-11-02</td>
+          <td class="status-corrupted">corrupted</td>
+        </tr>
+        <tr>
+          <td><a href="/archives/yuta_notes/">yuta_notes</a></td>
+          <td>2007-07-01</td>
+          <td class="status-partial">partial</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    © BadLink Project. No claim of authenticity is made.
+  </footer>
+</body>
+</html>
+

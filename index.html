@@ -2,18 +2,59 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>削除された個人Webサイト アーカイブ</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BadLink - Internet Lost Site Archive</title>
+  <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>削除された個人Webサイト アーカイブ</h1>
-    <p>このサイトは、過去に公開されていた個人Webサイトの記録を目的としたアーカイブです。</p>
-    <ul>
-      <li><a href="about.html">このアーカイブについて</a></li>
-      <li><a href="sitemap.html">アーカイブ一覧</a></li>
-    </ul>
-  </div>
+  <header class="header">
+    <h1 class="logo">BadLink</h1>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/archives/">Archives</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <h2>Internet Lost Site Archive</h2>
+    <p>BadLinkは、削除・非公開となった個人サイトを静的に記録・保存するアーカイブです。</p>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search archives..." class="search-input">
+    </div>
+
+    <table class="archive-table">
+      <thead>
+        <tr>
+          <th>Site ID</th>
+          <th>Last Update</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="/archives/kazunari_2003/">kazunari_2003</a></td>
+          <td>2006-03-14</td>
+          <td>retrieved</td>
+        </tr>
+        <tr>
+          <td><a href="/archives/nagase_photo/">nagase_photo</a></td>
+          <td>2004-11-02</td>
+          <td>corrupted</td>
+        </tr>
+        <tr>
+          <td><a href="/archives/yuta_notes/">yuta_notes</a></td>
+          <td>2007-07-01</td>
+          <td>retrieved</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer class="footer">
+    <p>© BadLink Project. No claim of authenticity is made.</p>
+  </footer>
 </body>
 </html>
 
